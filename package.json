@@ -1,0 +1,18 @@
+{
+  "name": "bundler",
+  "version": "1.0.0",
+  "main": "src/cli.js",
+  "bin": {
+    "bundler": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^12.0.0",
+    "fs-extra": "^11.3.4",
+    "glob": "^13.0.6",
+    "ignore": "^7.0.5"
+  }
+}
